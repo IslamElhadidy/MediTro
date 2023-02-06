@@ -1,0 +1,28 @@
+
+.page-wrapper input {
+    width: 70%;
+    height: 70px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid var(--mainColor);
+    color: var(--mainColor);
+    font-size: 20px;
+}
+.page-wrapper input:focus {
+    outline: none;
+}
+.page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    position: relative;
+}
+.page-wrapper svg {
+    font-size: 20px;
+    color: var(--mainColor);
+    cursor: pointer;
+    position: absolute;
+    right: 200px;
+}

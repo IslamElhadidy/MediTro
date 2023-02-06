@@ -1,0 +1,10 @@
+.private-image .appointment {
+    background-color: transparent !important;
+    padding: 60px 0;
+}
+.private-image .row {
+    justify-content: center;
+}
+.private-image .app-image {
+    display: none !important;
+}

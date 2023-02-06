@@ -1,0 +1,117 @@
+.navbarr {
+    z-index: 100;
+}
+.navbar-navv {
+    display: flex !important;
+    gap: 20px !important;
+    
+}
+.navbar-navv .active {
+    color: var(--secColor) !important;
+}
+.navbar-navv {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.navbar-navv a {
+    color: var(--mainColor) !important;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.5s;
+    position: relative;
+}
+.nav-link::after{
+    position: absolute;
+    content: '';
+    margin-top: 10px;
+    
+}
+.navbar-navv a:hover,
+.navbar-navv a:focus{
+    color: var(--secColor) !important;
+}
+.navbar-navv button {
+    margin-top: -10px;
+    border: none;
+    background-color: var(--mainColor);
+    padding: 5px 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar-navv button:hover {
+    background-color: #5559cebb;
+}
+
+.dropdown-menu {
+    background-color: white;
+    border: none !important;
+    border-radius: 0 !important;
+    margin-top: 8px !important;
+    width: 200px;
+}
+
+
+.dropdown-menu li {
+    width: 100%;
+    height: 30px !important;
+    position: relative;
+}
+.dropdown-menu a {
+    color: black !important;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+    margin-bottom: 5px;
+    
+}
+.dropdown-menu a::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 17px;
+    width: 10px;
+    height: 1px;
+    background-color: var(--mainColor);
+    transition: 0.5s;
+    opacity: 0;
+}
+.dropdown-menu a:hover::before {
+    opacity: 1;
+    width: 140px;
+}
+
+.dropdown-menu a:hover {
+    color: var(--mainColor) !important;
+    background-color: white !important;
+}
+
+@media (max-width:992px) {
+    .dropdown-menu {
+        width: 100%;
+        background-color: #F8F9FA !important;
+    }
+    .dropdown-menu a:hover {
+        background-color: #F8F9FA !important;
+    }
+}
+.nav-link::after {
+    transition: 0.1s;
+
+}
+.nav-item:hover .nav-link::after {
+    transform: rotate(-120deg);
+
+}
+.phone {
+    display: flex !important;
+    gap: 10px;
+    align-items: center;
+    margin-top: -8px;
+}

@@ -1,0 +1,86 @@
+.login {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.box-login {
+    background-color: #fff;
+    box-shadow: 0 10px 60px 0 rgb(31 34 120 / 10%);
+    border-radius: 40px;
+    padding: 40px 80px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.box-login img {
+    width: 140px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+.inputs input {
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid rgba(175, 175, 208, 0.655);
+    outline: none;
+}
+.inputs input:focus {
+    border: 1px solid rgb(157, 157, 245);
+}
+
+.inputs input::placeholder {
+    color: black;
+}
+.submit  a {
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgba(175, 175, 208, 0.655);
+    outline: none;
+    background-color: var(--mainColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+.submit  a:hover {
+    opacity:1;
+    color: white;
+}
+.forgett {
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+.box-login span {
+    font-size: 15px;
+
+}
+.register a {
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgba(175, 175, 208, 0.655);
+    outline: none;
+    background-color: var(--secColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.register a:hover {
+    opacity: 1;
+    color: white;
+}

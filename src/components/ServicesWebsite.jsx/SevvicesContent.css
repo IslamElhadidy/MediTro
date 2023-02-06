@@ -1,0 +1,13 @@
+.services-content {
+    padding-top: 60px;
+}
+.services-content .uniq-box {
+    box-shadow: 1px 1px 50px rgb(0 0 0 / 8%);
+    
+}
+.five-box svg {
+    color: rgb(105, 104, 82);
+}
+.six-box svg {
+    color: rgb(216, 23, 68);
+}

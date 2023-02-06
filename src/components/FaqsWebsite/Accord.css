@@ -1,0 +1,41 @@
+.accordion {
+    padding-top: 20px;
+}
+.accordion-item {
+    background: transparent !important;
+    border: none !important;
+    margin-bottom: 16px;
+}
+.accordion-button {
+    background: var(--secColor) !important;
+    color: white !important;
+    font-weight: bold;
+    padding: 25px !important;
+    border-radius: 10px !important;
+}
+.accordion .collapsed {
+    background: var(--mainColor) !important;
+    color: white !important;
+    font-weight: bold;
+    padding: 25px !important;
+    border-radius: 10px !important;
+}
+/* .accordion-button:focus {
+    background-color: var(--secColor) !important;
+    outline: none;
+    border: none;
+    box-shadow: none;
+} */
+
+.accordion-collapse {
+    background: #dee1e7;
+    margin-top: -10px;
+    padding: 11px;
+    border-radius: 0 0 10px 10px;
+    line-height: 25px;
+    font-size: 16px;
+    color: rgb(59, 54, 54)
+}
+.speaicl-margin {
+    margin-top: -30px;
+}
