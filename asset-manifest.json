@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/MediTro/static/css/main.ffde1f87.css",
+    "main.js": "/MediTro/static/js/main.de0d8852.js",
+    "static/media/error.gif": "/MediTro/static/media/error.4b5472f14025469a16d7.gif",
+    "static/media/doctor.7c2bc96d.png": "/MediTro/static/media/doctor.7c2bc96d.7c2bc96d67d3eba1d64a.png",
+    "static/media/news9.jpg": "/MediTro/static/media/news9.a59ea2da7cc4c0bbd908.jpg",
+    "static/media/news.2.jpg": "/MediTro/static/media/news.2.67db6c474a828bd7a0cd.jpg",
+    "static/media/footerbg.jpg": "/MediTro/static/media/footerbg.d025f458ac691ab6e8fa.jpg",
+    "static/media/news-3.jpg": "/MediTro/static/media/news-3.89b8315141d75bd31ced.jpg",
+    "static/media/news-4.jpg": "/MediTro/static/media/news-4.28ea761e88293ca4d821.jpg",
+    "static/media/news-7.jpg": "/MediTro/static/media/news-7.42f81537f685791c71ac.jpg",
+    "static/media/news-1.jpg": "/MediTro/static/media/news-1.a3848a1189e2114e1b47.jpg",
+    "static/media/news8.jpg": "/MediTro/static/media/news8.c1733b79898885a595bd.jpg",
+    "static/media/news-5.jpg": "/MediTro/static/media/news-5.44c2a54210474d223a99.jpg",
+    "static/media/news10.jpg": "/MediTro/static/media/news10.9ca3a0422fec87cd6c98.jpg",
+    "static/media/person-2.jpg": "/MediTro/static/media/person-2.0593bc2fd8a13cf8c19f.jpg",
+    "static/media/bg-contact.jpg": "/MediTro/static/media/bg-contact.ad1ed7ee8284087fe9ee.jpg",
+    "static/media/person-1.jpg": "/MediTro/static/media/person-1.ad1ed7ee8284087fe9ee.jpg",
+    "static/media/person-3.jpg": "/MediTro/static/media/person-3.fa689b1037dbf69567a3.jpg",
+    "index.html": "/MediTro/index.html",
+    "main.ffde1f87.css.map": "/MediTro/static/css/main.ffde1f87.css.map",
+    "main.de0d8852.js.map": "/MediTro/static/js/main.de0d8852.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffde1f87.css",
+    "static/js/main.de0d8852.js"
+  ]
+}
